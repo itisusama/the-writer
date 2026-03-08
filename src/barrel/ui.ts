@@ -17,6 +17,25 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
+import Hero from "@/components/home/hero";
+import Footer from "@/layouts/footer.layout";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  DropdownMenuSeparator,
+} from "@/components/ui/dropdown-menu";
+import Navbar from "@/layouts/navbar.layout";
+import { CTA } from "@/components/home/cta";
+import { Features } from "@/components/home/features";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { FAQ } from "@/components/home/faq";
 
 export const ui = {
   Button,
@@ -34,4 +53,19 @@ export const ui = {
   FormItem,
   FormLabel,
   FormMessage,
+  Hero,
+  Footer,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  DropdownMenuSeparator,
+  Navbar,
+  CTA,
+  Features,
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  FAQ
 };
