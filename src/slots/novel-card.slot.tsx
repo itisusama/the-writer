@@ -2,17 +2,19 @@ import { type ReactNode } from "react";
 import { ui } from "@/barrel/ui";
 
 type NovelCartSlotProps = {
+  genre?: string;
   title: string;
   description: string;
   image?: ReactNode;
-  footer?: ReactNode;
+  authorName: string;
 };
 
 const NovelCartSlot = ({
+  genre,  
   title,
   description,
   image,
-  footer,
+  authorName,
 }: NovelCartSlotProps) => {
   return (
     <ui.Card className="overflow-hidden transition hover:shadow-lg">
@@ -23,15 +25,18 @@ const NovelCartSlot = ({
       )}
 
       <ui.CardHeader>
+        <ui.Badge variant="outline" className="mb-2">
+          {genre}
+        </ui.Badge>
         <ui.CardTitle>{title}</ui.CardTitle>
         <ui.CardDescription>{description}</ui.CardDescription>
       </ui.CardHeader>
-
-      {footer && (
+      <div className="px-4"><hr /></div>
         <ui.CardFooter className="flex justify-between items-center">
-          {footer}
+          <div>
+            By: {authorName}
+          </div>
         </ui.CardFooter>
-      )}
     </ui.Card>
   );
 };

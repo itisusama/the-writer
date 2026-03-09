@@ -3,6 +3,7 @@ import Home from './pages/home'
 import Login from './pages/login'
 import Register from './pages/register'
 import Main from './layouts/main.layout'
+import Browse from './pages/browse'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
             </Route>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/browse" element={<Browse/>} />
         </Routes>
       </Router>
     </div>

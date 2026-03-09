@@ -20,9 +20,9 @@ export default function Hero(){
           </p>
         </div>
 
-        <Link to="/login">
+        <Link to="/browse">
           <ui.Button size="lg" className="gap-2 text-base px-8">
-            Go to Dashboard
+            Browse Stories
             <icons.ArrowRight className="h-4 w-4" />
           </ui.Button>
         </Link>

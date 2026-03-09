@@ -36,6 +36,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { FAQ } from "@/components/home/faq";
+import Testimonial from "@/components/home/testimonial";
+import { Badge } from "@/components/ui/badge";
 
 export const ui = {
   Button,
@@ -67,5 +69,7 @@ export const ui = {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-  FAQ
+  FAQ,
+  Testimonial,
+  Badge
 };
