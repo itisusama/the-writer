@@ -38,6 +38,8 @@ import {
 import { FAQ } from "@/components/home/faq";
 import Testimonial from "@/components/home/testimonial";
 import { Badge } from "@/components/ui/badge";
+import BrowseHeader from "@/components/browse/browse-header";
+import GenrePills from "@/components/browse/genre-pills";
 
 export const ui = {
   Button,
@@ -71,5 +73,7 @@ export const ui = {
   AccordionTrigger,
   FAQ,
   Testimonial,
-  Badge
+  Badge,
+  BrowseHeader,
+  GenrePills
 };

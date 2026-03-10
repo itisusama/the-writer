@@ -17,7 +17,7 @@ const NovelCartSlot = ({
   authorName,
 }: NovelCartSlotProps) => {
   return (
-    <ui.Card className="overflow-hidden transition hover:shadow-lg">
+    <ui.Card className="overflow-hidden transition hover:shadow-lg px-4">
       {image && (
         <div className="w-full">
           {image}

@@ -4,7 +4,8 @@ import { BookOpenText,
   UserPlus,
   Quote,
   Heart,
-  Users} from "lucide-react";
+  Users,
+  Sparkles} from "lucide-react";
 
 export const icons = {
   BookOpenText,
@@ -13,5 +14,6 @@ export const icons = {
   UserPlus,
   Quote, 
   Heart, 
-  Users
+  Users,
+  Sparkles
 };
